@@ -1,0 +1,23 @@
+#toTop {
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #222222;
+    color: white; 
+    cursor: pointer; 
+    padding:10px 15px; 
+    border-radius: 10px; 
+    font-size: 16px;
+   transition: 0.2s ease-in;
+    opacity: 0.5;
+    
+}
+
+#toTop:hover {
+    background-color: #7CC576; /* Add a dark-grey background on hover */
+    
+}

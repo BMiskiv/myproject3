@@ -1,0 +1,751 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url(http://allfont.net/allfont.css?fonts=montserrat-bold);
+body {
+    margin: 0px;
+    font-family: Roboto Slab;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+a {
+    font-family: 'Montserrat Bold', arial;
+}
+h4 {
+    text-transform: uppercase;
+}
+
+
+.container {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    display: inline-block;
+    margin-top: 42px;
+}
+
+.logo-img {
+    position: absolute;
+    margin-top: 9px;
+}
+
+.logo-text {
+    display: inline-block;
+    color: #555555;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-left: 40px;
+}
+
+.nav {
+    float: right;
+    margin-top: 42px;
+}
+
+.nav__item {
+    float: left;
+    list-style-type: none;
+}
+
+.nav__item a {
+    margin-left: 33px;
+    color: #848484;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.nav__item a:hover{
+	color:#3E3E3E;	
+}
+
+
+
+
+/*интродакшн*/
+
+.intro {
+    margin-top: 50px;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.intro-title {
+    color: #fff;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.intro-subtitle {
+    color: #ABA9A7;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.intro-button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 30px 23px;
+    background-color: #7CC576;
+    border-radius: 39px;
+    width: 200px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.2s ease-in;
+}
+
+
+.intro-button:hover {
+    background-color: #5E9459;
+}
+
+
+
+
+/*сервисы*/
+
+.services {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.services-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.services-subtitle {
+    text-align: center;
+    color: #828282;
+    font-size: 20px;
+}
+
+.services__items {
+    margin-top: 110px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-item {
+    text-align: center;
+    width: 280px;
+}
+
+.services-item--title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.services-item--subtitle {
+    font-size: 14px;
+    color: #A3A4A4;
+}
+
+
+
+
+/*ABOUT sea*/
+
+.about {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/*бг с морем*/
+
+.about-background {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 120px;
+}
+
+.about-background-title {
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.about-background-title span {
+    color: #7CC576;
+}
+
+.about-background--subtitle {
+    color: #CCCCCC;
+    font-size: 16px;
+}
+
+
+
+
+/*чекмарк с галочкой*/
+
+.about-background--checkmarks {
+    color: #CCCCCC;
+    font-size: 16px;
+}
+
+.chekmark_item {
+    margin-top: 25px;
+}
+
+.fa-check-circle {
+    font-size: 32px;
+    margin-right: 20px;
+}
+
+.chekmark_title {
+    display: inline-block;
+    position: absolute;
+    margin-top: 7px;
+}
+
+.about-background--button {
+    display: inline-block;
+    padding: 22px 35px;
+    text-align: center;
+    color: #fff;
+    background-color: #7CC576;
+    text-decoration: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-top: 45px;
+    font-weight: bold;
+    transition: 0.2s ease-in;
+}
+
+.about-background--button:hover {
+    background-color: #69A664;
+}
+
+
+
+
+/*latest project                                 */
+
+.latest-project {
+    margin-top: 100px;
+    flex-direction: row;
+}
+
+.latest-project--title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.latest-project--subtitle {
+    text-align: center;
+    color: #828282;
+    font-size: 20px;
+}
+
+
+
+/*   DEVELOPING WITH IPAD*/
+
+.latest-project--developing {
+    width: 490px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+}
+
+.latest-project--developing-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 90px;
+}
+
+.latest-project--developing-subtitle {
+    float: left;
+    color: #828282;
+    margin-top: 0px;
+}
+
+
+
+
+/*COMMERCE*/
+
+.latest-project--developing-commerce {
+    margin-top: 16px;
+}
+
+.latest-project--developing-commerce-title {
+    display: inline-block;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.latest-project--developing-commerce-subtitle {
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #828282;
+}
+
+
+
+/*SEO*/
+
+.latest-project--developing-powerfulseo {
+    margin-top: 16px;
+}
+
+.latest-project--developing-powerfulseo-title {
+    display: inline-block;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.latest-project--developing-powerfulseo-subtitle {
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #828282;
+}
+
+
+
+/*Secure*/
+
+.latest-project--developing-secure {
+    margin-top: 16px;
+}
+
+.latest-project--developing-secure-title {
+    display: inline-block;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.latest-project--developing-secure-subtitle {
+    display: inline-block;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #828282;
+}
+
+
+
+/*ABOUT*/
+
+.latest-project--developing-about {
+    margin-top: 16px;
+    color: #828282;
+}
+
+
+
+/*About-details*/
+
+.latest-project--developing-details {
+    display: inline-block;
+    margin-top: 20px;
+    color: #80C77A;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.latest-project--developing-details:hover {
+    color: #77B871;
+}
+
+
+
+/*картинка с планшетом*/
+
+.latest-project--ipad {
+    position: absolute;
+    right: 0px;
+    left: auto;
+    z-index: 1;
+}
+
+
+
+/*секция culture and values*/
+
+.culture-values {
+    margin-top: 700px;
+    text-align: center;
+}
+
+.culture-values__title {
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.culture-values__subtitle {
+    color: #828282;
+    font-size: 20px;
+}
+
+.culture-values__icons {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 96px;
+    margin-right: 96px;
+    margin-top: 90px;
+}
+
+.culture-values__icons--line {
+    height: 3px;
+    margin-top: 45px;
+}
+
+
+.culture-values__items {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.culture-values__items-item {
+    margin-top: 30px;
+    text-align: center;
+    width: 276px;
+}
+
+.culture-values__items-item--title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.culture-values__items-item--subtitle {
+    font-size: 14px;
+    color: #828282;
+}
+
+
+/*СЕКЦИЯ OUR CLIENTS*/
+
+.our-clients {
+    margin-top: 180px;
+    margin-bottom: 800px;
+}
+
+.our-clients__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.our-clients__subtitle {
+    color: #828282;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+/*правый комент*/
+.our-clients__review-right {
+  margin-top: 100px;
+  display: inline-block;
+  float: right;
+  width: 750px;
+  margin-right: 80px;
+}
+.our-clients__review-right--block {
+  display: inline-block;
+}
+
+.our-clients__review-right--text {
+display: inline-block;
+width: 500px;
+float: right;
+color: #828282;
+font-size: 20px;
+}
+.our-clients__review-right--client {
+  display: inline-block;
+  margin-left: 50px;
+  color:#7FC679;
+  font-size: 18px;
+  transition: 0.2s ease-in;
+}
+.our-clients__review-right--client:hover {
+    color:#71AF6B;
+}
+
+.our-clients__review-right--photo {
+float: left;
+}
+
+/*левый коммент)*/
+.our-clients__review-left {
+  margin-top: 100px;
+  display: inline-block;
+  float: right;
+  width: 750px;
+  margin-right: 80px;
+}
+
+.our-clients__review-left--block {
+  display: inline-block;
+}
+
+.our-clients__review-left--text {
+display: inline-block;
+width: 500px;
+float:left;
+color: #828282;
+font-size: 20px;
+}
+
+.our-clients__review-left--client {
+  display: inline-block;
+  margin-left:0px;
+  color:#7FC679;
+  font-size: 18px;
+  transition: 0.2s ease-in;
+}
+.our-clients__review-left--client:hover{
+    color:#71AF6B;
+}
+
+.our-clients__review-left--photo {
+float: right;
+}
+
+
+/*контакт ас*/
+
+.contact__us {
+  height: 250px;
+  background-color: #7CC576;
+  margin-top: 140px;
+}
+.contact__us-title {
+  color:#fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-top: 68px;
+}
+.contact__us-button {
+  margin-top: 20px;
+  background-color:#88CA83;
+  border:3px solid #fff;
+  padding: 18px 30px;
+  border-radius: 12px;
+  color:#fff;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: 'Montserrat Bold', arial;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s ease-in;
+}
+.contact__us-button:hover {
+    background-color: #76BB70;
+
+}
+
+/*компании */
+
+.companies{
+    display: flex;
+    justify-content: space-around;
+    margin:66px;
+}
+
+/*навигация подвала*/
+
+.footer {
+    background: #222222;
+    height: 365px;
+}
+.footer-navigation {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around; 
+    padding-top: 58px;
+}
+
+/*CONTACT US*/
+.footer-navigation__contact-us-title {
+text-transform: uppercase;
+font-size: 16px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+.footer-navigation__contact-us {
+color:#fff;
+line-height: 2.2;
+}
+.footer-navigation__contact-us a{
+color:#d3d3d3;
+text-decoration: none;
+transition: 0.2s ease-in;
+}
+.footer-navigation__contact-us a:hover{
+color:#fff;
+text-decoration: none;
+}
+
+
+
+/*LATEST POSTS*/
+.footer-navigation__latest-posts-title {
+text-transform: uppercase;
+font-size:16px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+.footer-navigation__latest-posts {
+color:#fff;
+line-height: 2.2;
+}
+.footer-navigation__latest-posts a {
+color:#d3d3d3;
+text-decoration: none;
+transition: 0.2s ease-in;
+line-height: 1.8;
+}
+
+.footer-navigation__latest-posts a:hover {
+color:#fff;
+
+}
+
+
+/*LATEST TWEETS*/
+.footer-navigation__latest-tweets-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.footer-navigation__latest-tweets {
+color:#fff;
+text-decoration: none;
+line-height: 2.2;
+}
+.footer-navigation__latest-tweets a {
+color:#D3D3D3;
+text-decoration: none;
+transition: 0.2s ease-in;
+line-height: 1.8;
+}
+
+.footer-navigation__latest-tweets a:hover {
+color:#fff;
+text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer Links*/
+
+.footer-links {
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+
+
+.footer-links__copyright i{
+    font-size: 14px;
+    margin-top: 17px;
+}
+
+.footer-links__links {
+    font-size: 40px;
+text-align: center;
+}
+
+.footer-links a {
+    color: #222222;
+}
+
+/*хаверы для иконок*/
+.fa-twitter-square:hover {
+color:#00ACED;
+}
+.fa-facebook-square:hover {
+    color:#3B579D;
+}
+.fa-pinterest-square:hover{
+    color:red;
+}
+.fa-google-plus-square:hover{
+    color:#D54B3E;
+}
+
+
+
+
+
